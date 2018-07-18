@@ -19,11 +19,12 @@ end
 
 def last_student_by_index
   # Write a solution that returns the first student in the array student_names
-  return STUDENT_NAMES[STUDENT_NAMES.size -1]
+  return STUDENT_NAMES[STUDENT_NAMES.size - 1]
 end
 
 def first_student_by_method
   # Write a solution that returns the first student using the built in .first method
+  return STUDENT_NAMES.first
 end
 
 def last_student_by_method
